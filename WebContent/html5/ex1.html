@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script src="ex1.js" type="text/javascript"> //페이지가 로드되면 실행
+
+	//alert("Hello Javascript");
+
+	var lottos = [5,[2,3],"hello"];
+	alert(lottos[1],[1]);
+	alert(typeof lottos[1],[1]);
+	
+	/*var x;
+	alert(x==undefined);
+	
+	alert(3.5 - "2");
+	alert(32>"4");
+	
+	var y=3;
+	document.write(y);
+	
+	var a,b,_a,_b;
+	a=prompt("a값을 입력하라", 0);
+	b=prompt("b값을 입력하라", 0);
+	_a = parseInt(a);
+	_b = parseInt(b);
+	alert(_a+_b);
+	
+	var ar=["철수","영희","맹구","동천"];
+	
+	for(var i = 0;i<4;i++)
+		alert(ar[i]);
+	
+	for(var i in ar)
+		alert(ar[i]);
+	
+	var record={kor:30,eng:40,math:50};
+	
+	for(var key in record)
+		alert(record[key]);
+		
+	
+	function add(a, b) {
+		return a + b;
+	}
+
+	alert(add(3,4));
+
+	var add = function(a, b) {
+		return a + b;
+	}
+	alert(add(3, 4));
+	
+	(function add(a, b) {
+		return a + b;
+	})(3,4); //가능하지만 잘 쓰지않음!!
+	
+	function add(a, b ,c ,d ,e) {
+		return arguments[0] + arguments[1] + arguments[2] + arguments[3] + arguments[4];
+	}
+	alert(add(3,4,"hello",5,6));
+	
+	function a(){
+		alert("(^오^)");
+	}
+	
+	function add() {
+		var a,b,_a,_b;
+		a=prompt("a값을 입력하라", 0);		
+		b=prompt("b값을 입력하라", 0);
+		_a = parseInt(a);
+		_b = parseInt(b);
+		alert(_a+_b);
+	}
+	
+	
+	
+	function init(){
+		var sumBtn = document.getElementById("sum-btn");
+		sumBtn.onclick = function(){    //익명함수를 이용한 이벤트 핸들링
+			var a,b,_a,_b;
+			var sumBtn = document.getElementById("sum-btn");
+			a=prompt("a값을 입력하라", 0);		
+			b=prompt("b값을 입력하라", 0);
+			_a = parseInt(a);
+			_b = parseInt(b);
+			sumBtn.value =_a+_b;
+		};
+	}
+	
+	function add() {
+		var a,b,_a,_b;
+		var sumBtn = document.getElementById("sum-btn");
+		a=prompt("a값을 입력하라", 0);		
+		b=prompt("b값을 입력하라", 0);
+		_a = parseInt(a);
+		_b = parseInt(b);
+		sumBtn.value =_a+_b;
+	}
+	
+	function init(){
+		var sumBtn = document.getElementById("sum-btn");
+		sumBtn.onclick = add;
+	}
+	
+	window.onload = init; */
+	
+</script>
+
+</head>
+
+<body>
+
+	<!-- <input type="button"  value="눌러라" onclick="a();"/> 
+	<input type="button"  value="더하라" onclick="add();" id ="sum"/>  스파게티코드--> 
+	
+	<input type="button" value="더하라" id ="sum-btn"/>
+	
+</body>
+
+</html>
